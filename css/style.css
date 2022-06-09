@@ -139,3 +139,246 @@ html {
 	flex: 0 1 30%;
 	padding: 30px 0px;
 }
+
+/*------- Profile ---------*/
+.profile {
+	padding: 0px 0px 15px 0px;
+}
+.profile__container {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.profile__title {
+	margin: 0px 0px 10px 0px;
+}
+.profile__text {
+	line-height: 1.5;
+	letter-spacing: -0.22px;
+}
+
+/*------- Expirience---------*/
+.experience {
+	padding: 15px 0;
+}
+.experience__container {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.experience__title {
+	margin: 0px 0px 10px 0px;
+}
+.experience__text {
+	line-height: 1;
+	letter-spacing: -0.22px;
+}
+.experience__list {
+}
+.experience__list:not(:last-child) {
+	margin: 0px 0px 25px 0px;
+}
+.list-experience {
+	line-height: 1.5;
+	letter-spacing: -0.15px;
+}
+.list-experience__item {
+	position: relative;
+	padding: 0 0 0 15px;
+}
+.list-experience__item:not(:last-child) {
+	margin: 0px 0px 5px 0px;
+}
+.list-experience__item::before {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: 0;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #2f3d55;
+}
+
+/*------- Education---------*/
+.education {
+	padding: 15px 0px;
+}
+.education__container {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.education__title {
+	margin: 0px 0px 10px 0px;
+}
+.education__name {
+	margin: 0px 0px 5px 0px;
+}
+.education__subtitle {
+}
+.subtitle {
+}
+
+/*------- Code example---------*/
+.code-example {
+	padding: 15px 0px 0px 0px;
+}
+.code-example__container {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.code-example__title {
+	margin: 0px 0px 10px 0px;
+}
+.code-example__code {
+	background-color: #aeccff;
+	color: #060c14;
+}
+
+/*------- Portfolio links---------*/
+.portfolio-links {
+	padding: 0px 0 15px 0;
+}
+.portfolio-links__container {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.portfolio-links__title {
+	margin: 0px 0px 10px 0px;
+}
+.portfolio-links__items {
+	display: flex;
+	flex-direction: column;
+}
+.portfolio-links__item {
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: -0.16px;
+	color: #3374f3;
+}
+.portfolio-links__item:hover {
+	text-decoration: underline;
+}
+.portfolio-links__item:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+
+.experience__job-title {
+	margin: 0px 0px 5px 0px;
+}
+.experience__job-time {
+	margin: 0px 0px 12px 0px;
+}
+.subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: -0.16px;
+	color: #a1aebf;
+}
+.second-level-heading {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 0.03px;
+	color: #2f3d55;
+}
+
+/*------- Hard skills ---------*/
+.hard-skills {
+	padding: 15px 0px;
+}
+.hard-skills__title {
+	margin: 0px 0px 10px 0px;
+}
+.hard-skills__container {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.hard-skills__list {
+	line-height: 1.5;
+	letter-spacing: -0.15px;
+}
+.hard-skills__item {
+	padding: 0px 0px 0px 15px;
+	position: relative;
+}
+.hard-skills__item::before {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: 0;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #2f3d55;
+}
+.hard-skills__item:not(:last-child) {
+	margin: 0px 0px 5px 0px;
+}
+
+/*------- Hobbies ---------*/
+.hobbies {
+	padding: 15px 0px;
+}
+.hobbies__container {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.hobbies__title {
+	margin: 0px 0px 10px 0px;
+}
+.hobbies__list {
+	line-height: 1.5;
+	letter-spacing: -0.15px;
+}
+.hobbies__item {
+	padding: 0px 0px 0px 15px;
+	position: relative;
+}
+.hobbies__item::before {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: 0;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #2f3d55;
+}
+.hobbies__item:not(:last-child) {
+	margin: 0px 0px 5px 0px;
+}
+
+/*------- Languages ---------*/
+.languages {
+	padding: 15px 0px;
+}
+.languages__container {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.languages__title {
+	margin: 0px 0px 10px 0px;
+}
+.languages__list {
+	line-height: 1.5;
+	letter-spacing: -0.15px;
+}
+.languages__item:not(:last-child) {
+	margin: 0px 0px 5px 0px;
+}
