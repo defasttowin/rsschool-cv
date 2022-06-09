@@ -382,3 +382,47 @@ html {
 .languages__item:not(:last-child) {
 	margin: 0px 0px 5px 0px;
 }
+
+/*------------ Footer ------------*/
+.footer {
+	background-color: #f3f7fa;
+	display: flex;
+	font-weight: 700;
+	padding: 30px 0px;
+}
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	flex: 1 1 100%;
+}
+.footer__autor {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer__date {
+	font-weight: 400;
+}
+.footer__autor-link {
+	color: #475569;
+	line-height: 1.5;
+}
+.footer__autor-link:hover {
+	text-decoration: underline;
+}
+.footer__rolling-scopes {
+}
+.rolling-scopes {
+}
+.rolling-scopes__link {
+	color: #475569;
+	line-height: 1.5;
+	margin: 0px 0px 10px 0px;
+	display: block;
+}
+.rolling-scopes__link:hover {
+	text-decoration: underline;
+}
+.rolling-scopes__logo {
+}
