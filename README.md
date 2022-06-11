@@ -1,1 +1,1 @@
-https://defasttowin/rsschool-cv.github.io/rsschool-cv/
+https://defasttowin.github.io/rsschool-cv/
