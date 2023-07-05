@@ -2,7 +2,182 @@
 <html lang="en">
 	<head>
 		<title>CV #2</title>
+        <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+        <div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#Contacts">Contacts</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#Profile">Profile</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#Skills">Skills</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#Projects">Projects</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#Expirience">Expirience</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#Education">Education</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#English">English</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#Code">Code</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#Hobbies">Hobbies</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<section class="basic-information">
+					<div class="basic-information__container">
+						<div class="basic-information__content">
+							<div class="basic-information__body body-basic-information">
+								<div class="body-basic-information__photo">
+									<img src="img/photo.jpg" alt="photo" />
+								</div>
+								<div class="body-basic-information__content">
+									<h1 class="body-basic-information__name">Bespalov Aleksandr</h1>
+									<p class="body-basic-information__position">Front-end web developer</p>
+								</div>
+							</div>
+							<div class="basic-information__contacts" id="Contacts">
+								<a class="basic-information__phone" href="tel:8800800800">8800800800</a>
+								<a class="basic-information__email" href="mailto:defast2293@gmail.com">defast2293@gmail.com</a>
+								<p class="basic-information__adress">Orenburg, Russia</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</header>
+			<main class="main">
+				<div class="main__container">
+					<div class="main__column-left">
+						<section class="profile" id="Profile">
+							<div class="profile__container">
+								<h2 class="profile__title title">Profile</h2>
+								<p class="profile__text">My name is Alexander, I am 29 years old. I study at the Rolling Scopes school and I think that in the future it will help me when applying for a job.</p>
+							</div>
+						</section>
+						<section class="experience" id="Expirience">
+							<div class="experience__container">
+								<h2 class="experience__title title">Experience</h2>
+								<h3 class="experience__job-title second-level-heading">Equipment repair Electrician · Limited Liability Company "Novotroitsk Soda Plant"</h3>
+								<p class="experience__job-time subtitle">April 2020 - Present</p>
+								<ul class="experience__list list-experience">
+									<li class="list-experience__item">Repair and installation of уlectrical equipment, electrical machines</li>
+									<li class="list-experience__item">Implementation of adjustment, repair and adjustment of technological equipment, electrical circuits, electrical and electronic devices</li>
+									<li class="list-experience__item">Checking the accuracy classes of measuring transformers</li>
+									<li class="list-experience__item">Performing work on repair, mona and dismantling cable lines</li>
+								</ul>
+								<h3 class="experience__job-title second-level-heading">Filtration apparatchik · Limited Liability Company "Novokhrom"</h3>
+								<p class="experience__job-time subtitle">June 2018 - December 2020</p>
+								<ul class="experience__list list-experience">
+									<li class="list-experience__item">Preparation of filters for work</li>
+									<li class="list-experience__item">Supply of the suspension and its distribution by filter</li>
+									<li class="list-experience__item">Filtering (if necessary - flushing), sediment, unloading of the product, pumping slim to filters, cleaning filters from sludge</li>
+									<li class="list-experience__item">Analyzes</li>
+								</ul>
+								<h3 class="experience__job-title second-level-heading">Electromechanics by elevators · import lift</h3>
+								<p class="experience__job-time subtitle">March 2017 - June 2018</p>
+								<ul class="experience__list list-experience">
+									<li class="list-experience__item">Regular diagnoster of the state of mechanisms and nodes</li>
+									<li class="list-experience__item">Ensuring safe operation of equipment</li>
+									<li class="list-experience__item">Installation and elevation of the elevator</li>
+									<li class="list-experience__item">Identification of equipment malfunction and their elimination</li>
+									<li class="list-experience__item">Services of dispatch equipment, televontomatics, switches</li>
+								</ul>
+							</div>
+						</section>
+						<section class="education" id="Education">
+							<div class="education__container">
+								<h2 class="education__title title">Education</h2>
+								<h3 class="education__name second-level-heading">Electrician for repair and maintenance of electrical equipment</h3>
+								<p class="education__subtitle subtitle">2012 - 2016 · Novotroitsk Polytechnic College, Novotroitsk</p>
+							</div>
+						</section>
+						<section class="code-example" id="Code">
+							<div class="code-example__container">
+								<h2 class="code-example__title title">Code example</h2>
+								<pre class="code-example__code">
+									<code >
+const summFunc = (firsNum, secondNum) => {
+ let result = firsNum + secondNum;
+ console.log(`Summ first number and second number: ${result}`);
+ return result;
+}
+									</code>
+								</pre>
+							</div>
+						</section>
+					</div>
+					<div class="main__column-right">
+						<section class="portfolio-links" id="Projects">
+							<div class="portfolio-links__container">
+								<h2 class="portfolio-links__title title">Projects</h2>
+								<div class="portfolio-links__items">
+									<a class="portfolio-links__item" href="https://defasttowin.github.io/lazy-app/main.html" target="_blank">-> Portfolio Link 1</a>
+								</div>
+							</div>
+						</section>
+						<section class="hard-skills" id="Skills">
+							<div class="hard-skills__container">
+								<h2 class="hard-skills__title title">Hard skills</h2>
+								<ul class="hard-skills__list">
+									<li class="hard-skills__item">VS Code</li>
+									<li class="hard-skills__item">Photoshop</li>
+									<li class="hard-skills__item">Figma</li>
+									<li class="hard-skills__item">Git</li>
+								</ul>
+							</div>
+						</section>
+						<section class="hobbies" id="Hobbies">
+							<div class="hobbies__container">
+								<h2 class="hobbies__title title">Hobbies</h2>
+								<ul class="hobbies__list">
+									<li class="hobbies__item">Traveling</li>
+									<li class="hobbies__item">Fitnes</li>
+									<li class="hobbies__item">Computer equipment</li>
+									<li class="hobbies__item">Fishing</li>
+								</ul>
+							</div>
+						</section>
+						<section class="languages" id="English">
+							<div class="languages__container">
+								<h2 class="languages__title title">Languages</h2>
+								<ul class="languages__list">
+									<li class="languages__item">English (Beginner)</li>
+								</ul>
+							</div>
+						</section>
+					</div>
+				</div>
+			</main>
+			<footer id="bottom" class="footer">
+				<div class="footer__container">
+					<div class="footer__autor">
+						<a class="footer__autor-link" href="https://github.com/defasttowin">Link to the author's GitHub profile</a>
+						<p class="footer__date">Work completed in Jule 2023</p>
+					</div>
+					<div class="footer__rolling-scopes rolling-scopes">
+						<a class="rolling-scopes__link" href="https://rs.school/js/">Link to Rolling Scopes</a>
+						<a class="rolling-scopes__logo" href="https://rs.school/js/">
+							<img src="img/rs-logo.svg" alt="Rolling Scopes logotip" />
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
