@@ -27,3 +27,10 @@ Electrician for repair and maintenance of electrical equipment
 **Languages**
 
 English (Beginner)
+
+**Hobbies**
+
+- Traveling
+- Fitnes
+- Computer equipment
+- Fishing
