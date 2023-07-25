@@ -1,0 +1,77 @@
+@import url(null.css);
+@import url(header.css);
+@import url(main.css);
+@import url(about.css);
+@import url(favorites.css);
+@import url(coffe-shop.css);
+@import url(contacts.css);
+@import url(library.css);
+@import url(footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.main {
+  flex: 1 1 100%;
+}
+body {
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+
+[class*="__container"] {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.title span {
+  color: #0c0c0e;
+  font-family: Forum;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.title span::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #0c0c0e;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.button-buy {
+  color: #0c0c0e;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid #0c0c0e;
+  padding: 0px 27px;
+  background-color: #fff;
+  transition: 0.2s;
+}
+.button-buy:hover {
+  background-color: #bb945f;
+  border-color: #bb945f;
+}

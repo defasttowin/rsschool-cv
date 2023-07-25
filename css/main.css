@@ -1,0 +1,21 @@
+.welcome {
+  background: url("/assets/img/bg-welcome.jpg") center / cover no-repeat;
+  padding: 220px 0px 160px 0px;
+}
+
+.welcome__container {
+}
+
+.welcome__title {
+  color: #fff;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  line-height: 1.25;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #0c0c0e;
+  padding: 35px 40px 35px 550px;
+  margin: 0px 0px 0px -500px;
+  max-width: 1050px;
+}

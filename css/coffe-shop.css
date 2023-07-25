@@ -1,0 +1,71 @@
+.coffee-shop {
+  padding: 20px 0px 40px 0px;
+}
+.coffee-shop__container {
+}
+.coffee-shop__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.coffee-shop__text {
+  color: #000;
+  line-height: 2; /* 200% */
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.coffee-shop__columns {
+  display: flex;
+  column-gap: 480px;
+}
+.coffee-shop__column {
+  flex: 0 1 50%;
+}
+.column-coffee-shop {
+}
+.column-coffee-shop__title {
+  color: #bb945f;
+  font-family: Forum;
+  font-size: 40px;
+  line-height: 1; /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.column-coffee-shop__title_right {
+  text-align: right;
+}
+
+.column-coffee-shop__menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.column-coffee-shop__products {
+  display: flex;
+  justify-content: space-between;
+}
+.column-coffee-shop__product {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  line-height: 2; /* 200% */
+}
+.column-coffee-shop__product_right {
+}
+.column-coffee-shop__price {
+  position: relative;
+  font-family: Forum;
+  line-height: 2; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.column-coffee-shop__price::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -181px;
+  width: 100px;
+  height: 1px;
+  background-color: #bb945f;
+}
