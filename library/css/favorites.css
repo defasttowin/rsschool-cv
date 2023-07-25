@@ -1,0 +1,128 @@
+.favorites {
+  padding: 20px 0px 40px 0px;
+}
+
+.favorites__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.favorites__form {
+  margin-bottom: 40px;
+}
+.form-favorites__radio-buttons {
+  display: flex;
+  column-gap: 90px;
+}
+.form-favorites {
+}
+.form-favorites__subtitle {
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.form-favorites__line {
+  display: flex;
+  column-gap: 20px;
+}
+.form-favorites__input {
+  appearance: none;
+  position: absolute;
+}
+.form-favorites__input:checked ~ label {
+  font-weight: 700;
+}
+
+.form-favorites__label {
+  position: relative;
+  padding-left: 37px;
+}
+.form-favorites__label::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+  display: block;
+}
+.form-favorites__label::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #000;
+  display: block;
+  opacity: 0;
+}
+.form-favorites__input:checked + .form-favorites__label::after {
+  opacity: 1;
+}
+.favorites__row {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 260px;
+  row-gap: 40px;
+}
+.favorites__card {
+  flex: 0 1 50%;
+  max-width: 550px;
+}
+.card-favorites {
+  border: 1px solid #000;
+  padding: 15px 20px;
+  position: relative;
+}
+.card-favorites__title {
+  font-family: Forum;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 20px;
+}
+.card-favorites__title::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 60px;
+  height: 1px;
+  background-color: #bb945f;
+}
+.card-favorites__subtitle {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 2.6; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card-favorites__caption {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 2.6; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.card-favorites__text {
+  font-size: 15px;
+  line-height: 2.6; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  max-width: 355px;
+}
+.card-favorites__button {
+}
+
+.card-favorites__image {
+  position: absolute;
+  bottom: -1px;
+  right: -40px;
+}
